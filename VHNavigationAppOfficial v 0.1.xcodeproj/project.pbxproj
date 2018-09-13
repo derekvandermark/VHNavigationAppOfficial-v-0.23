@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6524C4522126699200D487ED /* ResultsDisplayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C4512126699200D487ED /* ResultsDisplayCell.swift */; };
+		653C955A21051F690025E445 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653C955921051F680025E445 /* LocationSearchTable.swift */; };
 		656DCA20210250530004D124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656DCA1F210250530004D124 /* AppDelegate.swift */; };
 		656DCA22210250540004D124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656DCA21210250540004D124 /* ViewController.swift */; };
 		656DCA25210250540004D124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656DCA23210250540004D124 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6524C4512126699200D487ED /* ResultsDisplayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsDisplayCell.swift; sourceTree = "<group>"; };
+		653C955921051F680025E445 /* LocationSearchTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
 		656DCA1C210250530004D124 /* VHNavigationAppOfficial v 0.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VHNavigationAppOfficial v 0.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		656DCA1F210250530004D124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		656DCA21210250540004D124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,10 +106,12 @@
 				656DCA1F210250530004D124 /* AppDelegate.swift */,
 				656DCA21210250540004D124 /* ViewController.swift */,
 				656DCA23210250540004D124 /* Main.storyboard */,
+				653C955921051F680025E445 /* LocationSearchTable.swift */,
 				656DCA29210250560004D124 /* Assets.xcassets */,
 				656DCA2B210250560004D124 /* LaunchScreen.storyboard */,
 				656DCA2E210250560004D124 /* Info.plist */,
 				656DCA26210250540004D124 /* VHNavigationAppOfficial_v_0_1.xcdatamodeld */,
+				6524C4512126699200D487ED /* ResultsDisplayCell.swift */,
 			);
 			path = "VHNavigationAppOfficial v 0.1";
 			sourceTree = "<group>";
@@ -260,8 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				656DCA22210250540004D124 /* ViewController.swift in Sources */,
+				6524C4522126699200D487ED /* ResultsDisplayCell.swift in Sources */,
 				656DCA28210250540004D124 /* VHNavigationAppOfficial_v_0_1.xcdatamodeld in Sources */,
 				656DCA20210250530004D124 /* AppDelegate.swift in Sources */,
+				653C955A21051F690025E445 /* LocationSearchTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
